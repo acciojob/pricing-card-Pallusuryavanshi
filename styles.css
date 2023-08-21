@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+}
+.card{
+	width:30%;
+	height:30%;
+	text-align:center;
+	padding:20px;
+	background-color: #f1f1f1;
+	box-shadow:0px 4px 8px darkgray;
+	border-radius:10px;
+	
+}
+.parent{
+	width:100%;
+	height:100%;
+	disply:grid;
+	place-items:center;
+}
+.btn{
+	padding:10px;
+	border:none;
+	border-radius:10px;
+	background:#Fe625a;
+	color:white;
+	margin-top:10px;
+}
